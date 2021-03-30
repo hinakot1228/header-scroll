@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#header {
+    background: red;
+    box-shadow: 0 4px 8px -3px rgba(17, 17, 17, .06);
+    height: 56px;
+    position: fixed;
+    top: 0;
+    transition: .3s cubic-bezier(.4, 0, .2, 1);
+    width: 100%;
+    z-index: 199999;
+  }
+  
+  .head-animation {
+    transform: translateY(-100%);
+  }
